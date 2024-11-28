@@ -1,0 +1,237 @@
+body{
+    font-family: 'Poppins' ;
+}
+.head{
+    background-color: white !important;
+}
+.main-color{
+    color: #c90000 !important;
+}
+.main-back-color{
+    background-color: #c90000 !important;
+}
+.w-99{
+    width: 99%;
+}
+.main-back-color2{
+    background-color: #D62822 !important;
+}
+
+/* fonts */
+.poppins-semibold{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+}
+.poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* end fonts */
+
+/* header buttons */
+.first-btn{
+    background-color: #c90000;
+    border: white solid 1px;
+    color: white;
+}
+.first-btn:hover{
+    background-color: white;
+    border: #c90000 solid 1px;
+    color: #c90000;
+}
+.second-btn{
+    background-color: white;
+    border: #c90000 solid 1px;
+    color: #c90000;
+}
+.second-btn:hover{
+    background-color: #c90000;
+    border: white solid 1px;
+    color: white;
+}
+/* end header buttons */
+
+.Delivery{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+    width: 9rem;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 4rem;
+    padding: 0.4rem 1rem;
+}
+
+.line{
+    border: 0.1px solid #7d7c7c;
+    width: 82%;
+    position: absolute;
+    right: 0;
+    bottom: 81%;
+}
+.line1{
+    border: 0.1px solid #f1f1f1;
+    width: 82%;
+    position: absolute;
+    right: 0;
+    bottom: 82%;
+}
+.line2{
+    border: 0.1px solid #7d7c7c;
+    width: 86%;
+    position: absolute;
+    right: 0;
+    bottom: 79%;
+}
+.aks{
+    right: 0;
+    bottom: 0;
+    width: 14rem;
+}
+.aks1{
+    right: 0;
+    bottom: -7%;
+    width: 12rem;
+}
+.aks2{
+    right: 0;
+    bottom: 0;
+    width: 12rem;
+}
+.bor{
+    border-top-left-radius: 200rem;
+    border-top-right-radius: 200rem;
+}
+.sz{
+    font-size: 1.75rem;
+}
+.mar{
+    margin-bottom: -1rem;
+}
+.pic1{
+    left: 0;
+    top: 2rem;
+}
+.pic2{
+    bottom: 0;
+    left: 5rem;
+}
+footer{
+    background-color: #FFFDE6;
+}
+
+@media only screen and (min-width: 768px){
+    .poppins-semibold{
+        font-size: 32px;
+    }
+    .Delivery{
+        position: absolute;
+        top: 14%;
+        left: 32%;
+    }
+    .marg{
+        margin-top: -3rem !important;
+        margin-left: 1rem !important;
+    }   
+    .line{
+        width: 72%;
+        bottom: 81%;
+    } 
+    .line1{
+        width: 72%;
+        bottom: 86%;
+    } 
+    .line2{
+        width: 78%;
+        bottom: 79%;
+    } 
+    .aks{
+        right: 0;
+        bottom: 0;
+        width: 12rem;
+    }
+    .aks1{
+        right: 0;
+        bottom: -7%;
+        width: 12rem;
+    }
+    .aks2{
+        right: 0;
+        bottom: 0;
+        width: 11rem;
+    }
+    .bor{
+        border-top-left-radius: 0;
+        border-top-right-radius: 200rem;
+        border-bottom-right-radius: 200rem;
+    }
+    .pic1{
+        left: 0;
+        top: 2rem;
+        width: 8rem;
+    }
+    .pic2{
+        bottom: 0;
+        left: 8rem;
+        width: 10rem;
+    }
+    .toul{
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 992px){
+    .poppins-semibold{
+        font-size: 48px;
+    }
+    .Delivery{
+        position: absolute;
+        top: 20%;
+        left: 36%;
+    }
+    .marg{
+        margin-top: -18rem !important;
+        margin-left: 2rem !important;
+    }  
+    .line{
+        width: 77%;
+        bottom: 82%;
+    } 
+    .line1{
+        width: 77%;
+        bottom: 73%;
+    } 
+    .line2{
+        width: 82%;
+        bottom: 80%;
+    } 
+    .aks{
+        right: 0;
+        bottom: 0;
+        width: 10rem;
+    }
+    .aks1{
+        right: 0;
+        bottom: 0%;
+        width: 10rem;
+    }
+    .aks2{
+        right: 0;
+        bottom: 0;
+        width: 10rem;
+    }
+    .pic1{
+        left: 0;
+        top: 2rem;
+        width: 9rem;
+    }
+    .pic2{
+        bottom: 0;
+        left: 17rem;
+        width: 10rem;
+    }
+}
